@@ -76,7 +76,7 @@ struct Hue {
 /// ```
 /// label1.textColor = TailwindPalette.indigo._900
 /// label2.textColor = TailwindPalette.amber.dynamic(light: \._800, dark: \._200)
-///
+/// ```
 enum TailwindPalette {
     static let amber = Hue(
         _50 : "#FFFBEB".color(),
